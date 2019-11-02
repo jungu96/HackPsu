@@ -21,13 +21,17 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.PhoneAuthProvider;
+
+import java.util.concurrent.TimeUnit;
 
 public class LoginRegister extends AppCompatActivity {
     private String TAG = "Test"; //This is used for the Log.d function which prints out a text on the console.
-    private AutoCompleteTextView mUsernameView;
+    private EditText mPhoneNumber;
     private EditText mPasswordView;
     private FirebaseAuth mAuth;
     private FirebaseAnalytics mFirebaseAnalytics;
+    PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallBacks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,14 +41,16 @@ public class LoginRegister extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        mUsernameView = (AutoCompleteTextView) findViewById(R.id.login_phone);
+        mPhoneNumber = (EditText) findViewById(R.id.login_phone);
         //mPasswordView = (EditText) findViewById(R.id.login_password);
-
         Button loginButton = (Button)findViewById(R.id.login_button);
+
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String phoneEntered = mPhoneNumber.getText().toString();
+                verifyPhone(phoneEntered, mCallBacks);
                 startActivity(new Intent(LoginRegister.this, MainPage.class));
             }
         });
@@ -78,4 +84,13 @@ public class LoginRegister extends AppCompatActivity {
         }
         return false;
     }
+    public void verifyPhone(String phoneNumber, PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks){
+        PhoneAuthProvider.getInstance().verifyPhoneNumber(
+                phoneNumber,        // Phone number to verify
+                60,                 // Timeout duration
+                TimeUnit.SECONDS,   // Unit of timeout
+                this,               // Activity (for callback binding)
+                mCallbacks);        // OnVerificationStateChangedCallbac
+    }
+
 }
