@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -31,11 +32,12 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginRegister extends AppCompatActivity {
     private String TAG = "Test"; //This is used for the Log.d function which prints out a text on the console.
-
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         setContentView(R.layout.login_register);
         Log.d(TAG, "onCreate: This is LoginRegister");
 

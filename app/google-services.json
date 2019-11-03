@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "799221236808",
-    "firebase_url": "https://connect-766cd.firebaseio.com",
-    "project_id": "connect-766cd",
-    "storage_bucket": "connect-766cd.appspot.com"
+    "project_number": "333389014510",
+    "firebase_url": "https://hackpsu-b0176.firebaseio.com",
+    "project_id": "hackpsu-b0176",
+    "storage_bucket": "hackpsu-b0176.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:799221236808:android:27dcddd2385924b819847d",
+        "mobilesdk_app_id": "1:333389014510:android:d6701b3172d51174531aff",
         "android_client_info": {
           "package_name": "com.example.connect"
         }
       },
       "oauth_client": [
         {
-          "client_id": "799221236808-vtl2gc3796r2jvg7bgdcih9fot8pfra0.apps.googleusercontent.com",
+          "client_id": "333389014510-cg6dlgvk7867d99lav38vqq9hrrfrglh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.connect",
@@ -23,49 +23,20 @@
           }
         },
         {
-          "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
+          "client_id": "333389014510-nsn7gfg7dcptja76gqfepivbqf6804g2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBF0Lui90PHdOfx6SzNuzP4YbN8iO_1pQQ"
+          "current_key": "AIzaSyBJRd_OvSOBBq5sO0MMzn16qsZgBWQKRyU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:799221236808:android:4d7ae9823225a61c19847d",
-        "android_client_info": {
-          "package_name": "com.example.hackpsu2019"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBF0Lui90PHdOfx6SzNuzP4YbN8iO_1pQQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
+              "client_id": "333389014510-nsn7gfg7dcptja76gqfepivbqf6804g2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
