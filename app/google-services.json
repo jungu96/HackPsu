@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "368746633226",
-    "firebase_url": "https://connect-91939.firebaseio.com",
-    "project_id": "connect-91939",
-    "storage_bucket": "connect-91939.appspot.com"
+    "project_number": "799221236808",
+    "firebase_url": "https://connect-766cd.firebaseio.com",
+    "project_id": "connect-766cd",
+    "storage_bucket": "connect-766cd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:368746633226:android:35973b86256ee1ca3d67f3",
+        "mobilesdk_app_id": "1:799221236808:android:27dcddd2385924b819847d",
         "android_client_info": {
-          "package_name": "com.example.authentication"
+          "package_name": "com.example.connect"
         }
       },
       "oauth_client": [
         {
-          "client_id": "368746633226-qm5pjluvtmsfm8m0e6r5lmji6b4jfg74.apps.googleusercontent.com",
+          "client_id": "799221236808-vtl2gc3796r2jvg7bgdcih9fot8pfra0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.authentication",
-            "certificate_hash": "3c3c6b1005fe1e87f1ef8e1a6d4303c9682dd72f"
+            "package_name": "com.example.connect",
+            "certificate_hash": "83626c641a44e42d08cc6830fce88c152c5c7b9f"
           }
         },
         {
-          "client_id": "368746633226-cun5qm84k9jt6ji615g3rqivuee7gera.apps.googleusercontent.com",
+          "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDBqD06Qsf-xnD0QJk6dNp53HdKowWEWr8"
+          "current_key": "AIzaSyBF0Lui90PHdOfx6SzNuzP4YbN8iO_1pQQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "368746633226-cun5qm84k9jt6ji615g3rqivuee7gera.apps.googleusercontent.com",
+              "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -45,27 +45,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:368746633226:android:a33afde3a67306f13d67f3",
+        "mobilesdk_app_id": "1:799221236808:android:4d7ae9823225a61c19847d",
         "android_client_info": {
           "package_name": "com.example.hackpsu2019"
         }
       },
       "oauth_client": [
         {
-          "client_id": "368746633226-cun5qm84k9jt6ji615g3rqivuee7gera.apps.googleusercontent.com",
+          "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDBqD06Qsf-xnD0QJk6dNp53HdKowWEWr8"
+          "current_key": "AIzaSyBF0Lui90PHdOfx6SzNuzP4YbN8iO_1pQQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "368746633226-cun5qm84k9jt6ji615g3rqivuee7gera.apps.googleusercontent.com",
+              "client_id": "799221236808-j87bh5mh99l413kvcc6r6irpqhokpcvf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

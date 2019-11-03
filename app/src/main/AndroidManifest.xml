@@ -41,8 +41,13 @@
     <activity
         android:name=".Login"
         android:label="@string/login">
-
     </activity>
+
+    <activity
+        android:name=".Verification"
+        android:screenOrientation="portrait">
+    </activity>
+
 
 </application>
 
